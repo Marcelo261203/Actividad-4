@@ -82,3 +82,4 @@ console.log('removeItem es función:', typeof removeItem === 'function');
 console.log('clearCart es función:', typeof clearCart === 'function');
 
 
+

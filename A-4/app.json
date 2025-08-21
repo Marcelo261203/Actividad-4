@@ -16,9 +16,14 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.marcelo.pedidosonline",
+      "versionCode": 1,
       "adaptiveIcon": {
         "backgroundColor": "#FFFFFF"
       }
+    },
+    "web": {
+      "bundler": "metro"
     }
   }
 }

@@ -29,3 +29,4 @@ console.log('❌ Si no ves la alerta, hay un problema con Alert.alert');
 console.log('❌ Si ves la alerta pero no los logs de confirmación, hay un problema con el callback');
 
 
+

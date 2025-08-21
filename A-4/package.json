@@ -7,6 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "build-web": "expo start --web --no-dev --minify",
     "setup": "node scripts/setup.js",
     "populate-data": "node -e \"const { populateSampleData } = require('./utils/sampleData.js'); const { productosService } = require('./services/firebaseService.js'); populateSampleData(productosService);\"",
     "test-stock": "node -e \"const { ejecutarPruebasStock } = require('./utils/stockTest.js'); ejecutarPruebasStock();\"",

@@ -223,3 +223,4 @@ const ejecutarDiagnosticoPedidos = async () => {
 // Ejecutar el diagnóstico
 ejecutarDiagnosticoPedidos();
 
+
