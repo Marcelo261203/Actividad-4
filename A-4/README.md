@@ -62,7 +62,7 @@ Una aplicación móvil desarrollada con React Native y Expo para la gestión de 
 
 1. **Clonar el repositorio**
    ```bash
-   git clone [URL_DEL_REPOSITORIO]
+   git clone https://github.com/Marcelo261203/Actividad-4.git
    cd A-4
    ```
 
@@ -77,13 +77,20 @@ Una aplicación móvil desarrollada con React Native y Expo para la gestión de 
    - Configurar las credenciales en `services/firebaseService.js`
 
 4. **Ejecutar la aplicación**
+
+   **📱 Versión Móvil:**
    ```bash
    npm start
    ```
 
-5. **Probar en dispositivo**
-   - Escanear el código QR con Expo Go
-   - O ejecutar en emulador
+   **🌐 Versión Web:**
+   ```bash
+   npm run web
+   ```
+
+5. **Probar la aplicación**
+   - **Móvil**: Escanear el código QR con Expo Go
+   - **Web**: Abrir http://localhost:19006 en el navegador
 
 ## 📊 Funcionalidades del Sistema
 
@@ -135,6 +142,39 @@ npm start
 - Logs de operaciones del carrito
 - Verificación de consistencia de datos
 - Alertas de errores y problemas
+
+## 🌐 Versión Web
+
+### **¡Tu Aplicación También Funciona en Web!**
+
+Además de la versión móvil, tu aplicación **Pedidos Online** también está disponible como aplicación web con todas las funcionalidades completas.
+
+### **🚀 Cómo Acceder a la Versión Web:**
+
+```bash
+# Iniciar la versión web
+npm run web
+
+# Versión de producción optimizada
+npm run build-web
+```
+
+### **✅ Funcionalidades Web Completas:**
+- 📋 **Catálogo de Productos** - Visualización completa
+- 🛒 **Carrito de Compras** - Gestión completa
+- ➕➖ **Controles de Cantidad** - Agregar/quitar productos
+- 📊 **Gestión de Stock** - Validación en tiempo real
+- 💳 **Procesamiento de Pedidos** - Creación automática
+- 📈 **Historial de Pedidos** - Visualización completa
+- 🔄 **Actualización Automática** - Stock se actualiza automáticamente
+
+### **🌐 Acceso Web:**
+- **URL Local**: `http://localhost:19006`
+- **Navegadores Soportados**: Chrome, Firefox, Safari, Edge
+- **Dispositivos**: PC, Laptop, Tablet, Móvil (modo escritorio)
+
+### **📖 Documentación Web:**
+Para más detalles sobre la versión web, consulta: [WEB_README.md](WEB_README.md)
 
 ## 📱 Capturas de Pantalla
 
