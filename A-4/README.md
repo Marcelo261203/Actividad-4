@@ -61,14 +61,14 @@ Una aplicación móvil desarrollada con React Native y Expo para la gestión de 
 ### Pasos de Instalación
 
 1. **Clonar el repositorio**
-   ```bash
+```bash
    git clone https://github.com/Marcelo261203/Actividad-4.git
    cd A-4
-   ```
+```
 
 2. **Instalar dependencias**
-   ```bash
-   npm install
+```bash
+npm install
    ```
 
 3. **Configurar Firebase**
@@ -84,9 +84,9 @@ Una aplicación móvil desarrollada con React Native y Expo para la gestión de 
    ```
 
    **🌐 Versión Web:**
-   ```bash
-   npm run web
-   ```
+```bash
+npm run web
+```
 
 5. **Probar la aplicación**
    - **Móvil**: Escanear el código QR con Expo Go
